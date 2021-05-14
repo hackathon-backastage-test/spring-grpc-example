@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "spring-boot-example"
+  description: "An Example using spring boot and grpc."
+  annotations:
+    github.com/project-slug: hackathon-backastage-test/spring-grpc-example
+    backstage.io/techdocs-ref: url:https://github.com/hackathon-backastage-test/spring-grpc-example
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "TimBritton"

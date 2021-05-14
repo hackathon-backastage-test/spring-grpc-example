@@ -1,0 +1,8 @@
+site_name: "spring-boot-example"
+site_description: "An Example using spring boot and grpc."
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
